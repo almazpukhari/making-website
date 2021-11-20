@@ -4,24 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>workign with tailwind</title>
+    <title>tailwindCSS making card</title>
     <link rel="stylesheet" href="tailwind.min.css">
 </head>
-<body class="bg-gray-300">
-    <div class="my-6"></div>
-<div class="bg-white max-w-md md:max-w-2xl rounded-xl mx-auto shadow-lg overflow-hidden hover:shadow-2xl transition">
-    <div class="md:flex">
-        <div>
-    <img src="/Fashion/wedding-540905.jpg" alt="" class="w-full h-full">
-       </div>
-    <div class="p-8">
-        <h4 class="font-semibold text-sm uppercase text-blue-600">Farxada laga helo arooska</h4>
-        <a href="#" class="mt-2 block hover:underline text-2xl capitalize">bilaw</a>
-        <p class="mt-2 text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ullam, dicta iure fugiat aperiam veniam modi dolor expedita assumenda sit vero quas vel, voluptatum asperiores blanditiis nisi? Debitis, non deleniti.
-        </p>
+<body class="bg-gray-200">
+    <div class="container mx-auto">
+        <div class="bg-white h-16 px-5 flex justify-between items-center">
+        <h4 class="text-2xl hover:text-green cursor-pointer uppercase">company logo</h4>
+        <nav class="flex space-x-3 font-semibold uppercase hidden md:block">
+            <a href="#" class="text-sm hover:white hover:bg-gray-200 px-5 py-3 transition">home</a>
+            <a href="#"class="text-sm hover:white hover:bg-gray-200 px-5 py-3 transition">contect</a>
+            <a href="#"class="text-sm hover:white hover:bg-gray-200 px-5 py-3 transition">about us</a>
+        </nav>
+        <button class="px-5 py-3 bg-green-500 rounded shadow-lg text-white font-semibold uppercase">
+            login
+        </button>
+            
+        </div>
     </div>
+    <div class="mt-6"></div>
+
+    <div class="bg-white max-w-md md:max-w-2xl mx-auto shadow-lg hover:shadow-2xl transition overflow-hidden rounded-lg">
+        <div class="md:flex"> 
+            <div>
+        <img src="/Fashion/couple-3581038.jpg" alt="No imgez"  class="h-full w-full" >
+    </div>
+        <div class="p-8">
+            <h4 class="text-blue-500 uppercase tracking-wide">widdig</h4>
+            <a href="#!" class="mt-2 block hover:underline text-2xl text-sm capitalize text-red-500">
+                widding men
+            </a>
+            <p class="text-gray-500 mt-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, inventore officiis fuga velit libero pariatur esse mollitia ipsa, quae magnam asperiores a fugiat. Deleniti, recusandae blanditiis similique maiores quia laudantium.
+            </p>
+        </div>
     </div>
 </div>
+
 </body>
 </html>
